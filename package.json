@@ -1,0 +1,20 @@
+{
+  "name": "amp-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -p 8000 public/",
+    "deploy": "aws s3 sync public/ s3://itinao-amp-sample --delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itinao/amp-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itinao/amp-sample/issues"
+  },
+  "homepage": "https://github.com/itinao/amp-sample#readme"
+}
